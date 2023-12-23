@@ -9,6 +9,7 @@ public class HelloController {
 
     //localhost:8080/hello
     @GetMapping(path = "/hello")
+
     public String sayHello() {
         return "Hello World!";
     }
